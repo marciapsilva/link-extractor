@@ -1,0 +1,26 @@
+{
+  "name": "link-extractor",
+  "version": "1.0.0",
+  "description": "\u0016Extrai todos os links contidos em uma string no formato markdown.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marciapsilva/link-extractor.git"
+  },
+  "keywords": [
+    "laboratoria",
+    "link-extractor"
+  ],
+  "author": "Marcia Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marciapsilva/link-extractor/issues"
+  },
+  "homepage": "https://github.com/marciapsilva/link-extractor#readme"
+}

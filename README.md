@@ -1,10 +1,10 @@
-#Link Extractor v1.0.0
+# Link Extractor v1.0.0
 
-**A função desta biblioteca é extrair todos os links contidos em uma string no formato _mardown_.** 
+**A função desta biblioteca é extrair todos os links contidos em uma string no formato _markdown_.** 
 
 Retorna uma array de objetos contendo o endereço do link e o texto que recebeu o link.
 
-##Instalação
+## Instalação
 
 Após instalar o npm em seu computador (mais informações [aqui][https://www.npmjs.com/get-npm]), digite o seguinte código em seu terminal:
 
@@ -12,7 +12,7 @@ Após instalar o npm em seu computador (mais informações [aqui][https://www.np
 $npm install link-extractor
 ```
 
-##Exemplo de uso
+## Exemplo de uso
 
 No Node.js, digitar:
 
@@ -35,20 +35,20 @@ extractLinksFromMd(str);
 ]
 ```
 
-##Roadmap
+## Roadmap
 
-####Versão 2.0.0 (sem previsão)
+#### Versão 2.0.0 (sem previsão)
 - Ignora um link já inserido anteriormente na array, se estiver ligado a uma mesma palavra.
 - README em inglês.
 
-####Versão 1.0.0 (wip)
+#### Versão 1.0.0 (wip)
 
 - Retorna uma array de objetos contendo o endereço do link e o texto que recebeu o link.
 
-##Keywords
+## Keywords
 
 laboratoria, link extractor
 
-##Project Github
+## Project Github
 
 [Link Extractor][https://github.com/marciapsilva/link-extractor]
