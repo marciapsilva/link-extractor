@@ -1,13 +1,13 @@
 {
   "name": "link-extractor",
   "version": "1.0.0",
-  "description": "\u0016Extrai todos os links contidos em uma string no formato markdown.",
+  "description": "Extrai todos os links contidos em uma string no formato markdown.",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",

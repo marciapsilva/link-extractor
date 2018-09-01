@@ -6,7 +6,7 @@ Retorna uma array de objetos contendo o endereço do link e o texto que recebeu 
 
 ## Instalação
 
-Após instalar o npm em seu computador (mais informações [aqui][https://www.npmjs.com/get-npm]), digite o seguinte código em seu terminal:
+Após instalar o npm em seu computador (mais informações [aqui](https://www.npmjs.com/get-npm)), digite o seguinte código em seu terminal:
 
 ```
 $npm install link-extractor
@@ -47,8 +47,8 @@ extractLinksFromMd(str);
 
 ## Keywords
 
-laboratoria, link extractor
+laboratoria, link-extractor
 
 ## Project Github
 
-[Link Extractor][https://github.com/marciapsilva/link-extractor]
+[Link Extractor](https://github.com/marciapsilva/link-extractor)
