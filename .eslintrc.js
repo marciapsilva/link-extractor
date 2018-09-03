@@ -1,6 +1,7 @@
 module.exports = {
     "env": {
-        "es6": true
+        "es6": true,
+        "node": true
     },
     "extends": "eslint:recommended",
     "parserOptions": {
@@ -30,5 +31,6 @@ module.exports = {
         "id-length": [1, { "exceptions": ["i", "j", "x"] }],
         "indent": [1, 2],
         "no-array-constructor": 1,
+        "no-undef": "error"
     }
 };
