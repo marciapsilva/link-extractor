@@ -1,4 +1,4 @@
-# Link Extractor v1.0.0
+# Link Sniffer v1.0.0
 
 **A função desta biblioteca é extrair todos os links contidos em uma string no formato _markdown_.** 
 
@@ -9,7 +9,7 @@ Retorna uma array de objetos contendo o endereço do link e o texto que recebeu 
 Após instalar o npm em seu computador (mais informações [aqui](https://www.npmjs.com/get-npm)), digite o seguinte código em seu terminal:
 
 ```
-$npm install link-extractor
+$npm install link-sniffer
 ```
 
 ## Exemplo de uso
@@ -17,7 +17,7 @@ $npm install link-extractor
 No Node.js, digitar:
 
 ```
-const extractLinksFromMd = require('link-extractor');
+const lib = require('link-sniffer');
 const str = `# Lorem ipsum
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  incididunt ut [labore](https://en.wiktionary.org/wiki/labore) et [dolore](https://en.wiktionary.org/wiki/dolore) magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -26,7 +26,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  
 
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`;
 
-extractLinksFromMd(str);
+lib.extractLinksFromMd(str);
 
 [
   { href: 'https://en.wiktionary.org/wiki/labore', text: 'labore' },
@@ -47,4 +47,4 @@ extractLinksFromMd(str);
 
 ## Project Github
 
-[Link Extractor](https://github.com/marciapsilva/link-extractor)
+[Link Extractor](https://github.com/marciapsilva/link-sniffer)

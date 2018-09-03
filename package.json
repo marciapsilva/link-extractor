@@ -1,5 +1,5 @@
 {
-  "name": "link-extractor",
+  "name": "link-sniffer",
   "version": "1.0.0",
   "description": "Extrai todos os links contidos em uma string no formato markdown.",
   "main": "index.js",
@@ -11,18 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marciapsilva/link-extractor.git"
+    "url": "git+https://github.com/marciapsilva/link-sniffer.git"
   },
   "keywords": [
     "laboratoria",
-    "link-extractor"
+    "link-sniffer"
   ],
   "author": "Marcia Silva",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/marciapsilva/link-extractor/issues"
+    "url": "https://github.com/marciapsilva/link-sniffer/issues"
   },
-  "homepage": "https://github.com/marciapsilva/link-extractor#readme",
+  "homepage": "https://github.com/marciapsilva/link-sniffer#readme",
   "dependencies": {
     "chai": "^4.1.2"
   }
