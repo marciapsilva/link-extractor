@@ -1,4 +1,4 @@
-# Link Sniffer v1.0.2
+# Link Sniffer v1.0.3
 
 **A função desta biblioteca é extrair todos os links contidos em uma string no formato _markdown_.** 
 
@@ -26,7 +26,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  
 
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`;
 
-lib.extractLinksFromMd(str);
+lib.getLinksFromMd(str);
 
 [
   { href: 'https://en.wiktionary.org/wiki/labore', text: 'labore' },

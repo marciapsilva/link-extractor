@@ -1,6 +1,6 @@
 {
   "name": "link-sniffer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Extrai todos os links contidos em uma string no formato markdown.",
   "main": "index.js",
   "directories": {
@@ -15,7 +15,7 @@
   },
   "keywords": [
     "laboratoria",
-    "link-sniffer"
+    "link sniffer"
   ],
   "author": "Marcia Silva",
   "license": "ISC",

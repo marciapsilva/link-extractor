@@ -23,3 +23,4 @@ const searchLinks = string => {
 };
 
 module.exports.getLinksFromMd = getLinksFromMd;
+module.exports = getLinksFromMd; 
