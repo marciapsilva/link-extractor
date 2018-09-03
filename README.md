@@ -1,4 +1,4 @@
-# Link Sniffer v1.0.0
+# Link Sniffer v1.0.2
 
 **A função desta biblioteca é extrair todos os links contidos em uma string no formato _markdown_.** 
 
@@ -47,4 +47,4 @@ lib.extractLinksFromMd(str);
 
 ## Project Github
 
-[Link Extractor](https://github.com/marciapsilva/link-sniffer)
+[Link Sniffer](https://github.com/marciapsilva/link-sniffer)
