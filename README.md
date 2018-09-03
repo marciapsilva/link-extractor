@@ -45,10 +45,6 @@ extractLinksFromMd(str);
 
 - Retorna uma array de objetos contendo o endereço do link e o texto que recebeu o link.
 
-## Keywords
-
-laboratoria, link-extractor
-
 ## Project Github
 
 [Link Extractor](https://github.com/marciapsilva/link-extractor)
