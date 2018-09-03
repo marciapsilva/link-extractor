@@ -1,8 +1,8 @@
 const getLinksFromMd = string => {
   if (typeof string === 'number') {
-    return 'Erro: parâmetro não é uma string';
+    throw new Error('parâmetro não é uma string');
   } else if (string === undefined) {
-    return 'Erro: parâmetro não informado';
+    throw new Error('parâmetro não informado');
   } else { 
     return searchLinks(string);
   }
@@ -23,4 +23,3 @@ const searchLinks = string => {
 };
 
 module.exports.getLinksFromMd = getLinksFromMd;
-module.exports = getLinksFromMd; 

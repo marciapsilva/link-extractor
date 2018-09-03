@@ -1,4 +1,4 @@
-# Link Sniffer v1.0.3
+# Link Sniffer v1.1.0
 
 **A função desta biblioteca é extrair todos os links contidos em uma string no formato _markdown_.** 
 
@@ -28,11 +28,11 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 
 lib.getLinksFromMd(str);
 
-[
-  { href: 'https://en.wiktionary.org/wiki/labore', text: 'labore' },
-  { href: 'https://en.wiktionary.org/wiki/dolore', text: 'dolore' },
-  { href: 'http://foo.com', text: 'foo' },
-]
+//[
+//  { href: 'https://en.wiktionary.org/wiki/labore', text: 'labore' },
+//  { href: 'https://en.wiktionary.org/wiki/dolore', text: 'dolore' },
+//  { href: 'http://foo.com', text: 'foo' },
+//]
 ```
 
 ## Roadmap
