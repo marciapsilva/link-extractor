@@ -1,20 +1,20 @@
-# Link Sniffer v1.1.0
+# Link Sniffer v2.0.0
 
-**A função desta biblioteca é extrair todos os links contidos em uma string no formato _markdown_.** 
+**This library function is to extract all links within a string written in _markdown_ format.** 
 
-Retorna uma array de objetos contendo o endereço do link e o texto que recebeu o link.
+It returns an array of objects containing each URL and the text that received the URL. 
 
-## Instalação
+## Installation 
 
-Após instalar o npm em seu computador (mais informações [aqui](https://www.npmjs.com/get-npm)), digite o seguinte código em seu terminal:
+After installing npm in the computer (more info about that [here](https://www.npmjs.com/get-npm)), enter the following code in the Terminal: 
 
 ```
 $npm install link-sniffer
 ```
 
-## Exemplo de uso
+## Usage example
 
-No Node.js, digitar:
+In Node.js, enter:
 
 ```
 const lib = require('link-sniffer');
@@ -37,14 +37,16 @@ lib.getLinksFromMd(str);
 
 ## Roadmap
 
-#### Versão 2.0.0 (sem previsão)
-- Ignora um link já inserido anteriormente na array, se estiver ligado a uma mesma palavra.
-- README em inglês.
+#### Version 3.0.0 (tba)
+- It ignores a repeated URL already pushed into the result's array, as long as linked to the same word. 
 
-#### Versão 1.0.0 (wip)
+#### Version 2.0.0 (published)
+- Errors's messages and README translated into English.
 
-- Retorna uma array de objetos contendo o endereço do link e o texto que recebeu o link.
+#### Version 1.0.0 (published)
 
-## Project Github
+- It returns an array of objects containing each URL and the text that received the URL. 
+
+## Project on Github
 
 [Link Sniffer](https://github.com/marciapsilva/link-sniffer)

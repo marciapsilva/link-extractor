@@ -1,8 +1,8 @@
 const getLinksFromMd = string => {
   if (typeof string === 'number') {
-    throw new Error('parâmetro não é uma string');
+    throw new Error('argument is not a string');
   } else if (string === undefined) {
-    throw new Error('parâmetro não informado');
+    throw new Error('missing argument');
   } else { 
     return searchLinks(string);
   }
